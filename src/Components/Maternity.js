@@ -1,9 +1,11 @@
 import React, {Component} from 'react'
 
-class Home extends Component{
+class Maternity extends Component{
     constructor(props){
         super(props)
-
+        this.state={
+            
+        }
     }
     render(){
         return(
@@ -14,4 +16,4 @@ class Home extends Component{
     }
 }
 
-export default Home
+export default Maternity

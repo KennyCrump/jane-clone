@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import Nav from './Components/Nav'
 import './App.css';
 import styled from 'styled-components'
+
+import routes from './routes'
+import Nav from './Components/Nav'
 
 class App extends Component {
   render() {
     return (
       <AppWrapper>
         <Nav />
+        {routes}
       </AppWrapper>
     );
   }
